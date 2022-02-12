@@ -4,9 +4,8 @@ server:
 spring:
   datasource:
     hikari:
-      maximum-pool-size: 50
-      jdbc-url: jdbc:mysql://storyboard-mysql.c0g21czpi04j.ap-northeast-2.rds.amazonaws.com:3306/storyboard
       driver-class-name: com.mysql.cj.jdbc.Driver
+      jdbc-url: jdbc:mysql://storyboard-mysql.c0g21czpi04j.ap-northeast-2.rds.amazonaws.com:3306/storyboard
       username: jeongyong95
       password: vmfhgod11
 
